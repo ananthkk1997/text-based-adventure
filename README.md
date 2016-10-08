@@ -1,5 +1,5 @@
 # text-based-adventure
-A Harry Potter inspired text based adventure game written entirely in Python.
+A simple Harry Potter inspired text based adventure game written entirely in Python.
 
 NOTE: This project was pushed to Github after the development process was completed.
 
@@ -15,6 +15,8 @@ To start the game, the user must install Python. To do so, please visit: https:/
 Open a command line window in the project directory and run:
 
 python project.py
+
+The instructions will walk a player through the rules of gameplay.
 
 # Screenshots
 ## Relive the beginning!
