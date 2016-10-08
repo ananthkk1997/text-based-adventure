@@ -17,7 +17,8 @@ Open a command line window in the project directory and run:
 python project.py
 
 # Screenshots
+## Relive the beginning!
 ![alt text](/screenshots/hogwartsLetter.png?raw=true "Relive the Book!")
 
-Relive the Book!
+## Explore the wizarding world!
 ![alt text](/screenshots/diagonAlley.png?raw=true "Explore the World!")
