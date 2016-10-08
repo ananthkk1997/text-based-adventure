@@ -17,5 +17,7 @@ Open a command line window in the project directory and run:
 python project.py
 
 # Screenshots
+![alt text](/screenshots/hogwartsLetter.png?raw=true "Relive the Book!")
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+Relive the Book!
+![alt text](/screenshots/diagonAlley.png?raw=true "Explore the World!")
