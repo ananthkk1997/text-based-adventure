@@ -18,8 +18,8 @@ bartender = Character('Tom the Bartender', 'Good Lord, is this - can this be--? 
                         '\nBless my soul. Harry Potter.. what an honor.')
 borgin = Character('Borgin', 'Knockturn Alley is no place for a litle boy.'
                     '\nNow get out of my shop!')
-creepy_witch = Character('Witch', '..')
-creepy_wizard = Character('Wizard', '..')
+creepy_witch = Character('Witch', 'Lost, are we little boy?')
+creepy_wizard = Character('Wizard', "..He's back.. I know He's back.. ")
 
 
 # Things:
@@ -43,10 +43,12 @@ wand_2 = Thing('Wand 2', 'a springy Ebony wand with a Unicorn Hair core - 8.5 in
                 "You wave the wand and the glass jar on the counter explodes." +
                 " It doesnt feel quite right.")
 wand_3 = Thing('Wand 3', 'a supple Holly wand with a Phoenix Feather core - 11 inches.',
-                action = None, message = "\nYou wave the wand and feel a sudden warmth in your fingers. Red and gold sparks shoot from the end of the wand like fireworks. Mr. Ollivander says: 'Curious.. Very Curious' ")
+                action = None, message = "\nYou wave the wand and feel a sudden warmth in your fingers." +
+                "Red and gold sparks shoot from the end of the wand like fireworks. Mr. Ollivander says: 'Curious.. Very Curious' ")
 wand_4 = Thing('Wand 4', 'a whippy Maple wand with a Phoenix Feather core - 7 inches.',
                   " It doesnt feel quite right. Mr. Ollivander snatches it away.")
-
+nimbus_2000 = Thing('Nimbus 2000', 'the fastest racing broomstick in the world!',
+                "\nSorry! You don't have enough money.' ")
 hand_of_glory = Thing('Hand of Glory',
                                 'a large shriveled hand.. it seems harmless',
                                 action = 'The Hand latches onto your arm!'
@@ -67,7 +69,7 @@ leaky_couldron = Place( 'Leaky', "A popular wizarding pub and inn hidden in Lond
 flourish = Place('Flourish', "Get your spell books here!",
                     [],[book1_random, book1_defense], 'Flourish and Blotts')
 diagon = Place('Diagon', 'The centre of the Wizarding World!',
-                [hagrid], [], 'Diagon Alley')
+                [hagrid], [nimbus_2000], 'Diagon Alley')
 ollivanders = Place('Ollivanders', 'Makers of Fine Wands since 382 B.C',
                     [ollivander], [wand_1, wand_2, wand_3, wand_4],'Ollivanders Wands')
 knockturn  = Place('Knockturn', 'A dark, mysterious place...',
